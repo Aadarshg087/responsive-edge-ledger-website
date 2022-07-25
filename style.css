@@ -40,8 +40,9 @@
 
 .main {
   height: 90vh;
-  background: url("./image_resources/showcase.jpg") no-repeat center
+  background: gray url("./image_resources/showcase.jpg") no-repeat center
     center/cover;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -55,13 +56,17 @@
   color: white;
 }
 .main button {
-  background-color: rgb(0, 170, 0);
-  border: 0;
-  margin-top: 1rem;
-  padding: 1rem 2rem;
+  display: inline-block;
 }
-.main button a {
+.main a {
+  display: inline-block;
   text-decoration: none;
+  padding: 0.5rem 2rem;
+  border-radius: 5px;
+  margin: 1rem;
   color: white;
-  font-size: 1.2rem;
+  background-color: rgb(0, 170, 0);
+}
+.main .btn a:hover {
+  background-color: rgb(1, 119, 1);
 }
