@@ -69,3 +69,34 @@
 .main .btn a:hover {
   background-color: rgb(1, 119, 1);
 }
+
+.main2 h2 {
+  text-align: center;
+  margin: 3rem 0rem;
+  font-size: 2.5rem;
+}
+.main2 h2 span {
+  color: rgb(0, 186, 0);
+}
+
+.container2 {
+  display: flex;
+}
+.items {
+  border: 2px solid black;
+  justify-content: space-evenly;
+  text-align: baseline;
+  padding: 0rem 1rem;
+}
+.items h3 {
+  padding-left: 7rem;
+  margin-bottom: 1rem;
+}
+.items img {
+  width: 3rem;
+}
+.items p {
+  padding-left: 7rem;
+  text-align: baseline;
+  text-align: justify;
+}
