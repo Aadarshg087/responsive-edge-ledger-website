@@ -83,10 +83,11 @@
   display: flex;
 }
 .items {
-  border: 2px solid black;
+  /* border: 2px solid black; */
   justify-content: space-evenly;
   text-align: baseline;
   padding: 0rem 1rem;
+  margin: 2rem 0rem;
   margin-bottom: 6rem;
 }
 .items h3 {
@@ -100,4 +101,23 @@
   padding-left: 7rem;
   text-align: baseline;
   text-align: justify;
+}
+
+#section {
+  display: flex;
+  border: 2px solid black;
+}
+#section img {
+  width: 50%;
+}
+#section .container3 {
+  border: 2px solid black;
+  margin: 1rem 0rem;
+  padding: 2rem 2rem;
+}
+.container3 li {
+  list-style: none;
+}
+.container3 p {
+  margin-bottom: 4rem;
 }
