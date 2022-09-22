@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: poppins;
 }
+
 #navbar {
   /* border: 2px solid black; */
   background-color: rgb(31, 31, 31);
@@ -72,13 +73,12 @@
 .main .btn a:hover {
   background-color: rgb(1, 119, 1);
 }
-.main2 {
-  padding: 0rem 5rem;
-}
 
 .main2 h2 {
+  /* border: 2px solid black; */
   text-align: center;
   margin: 3rem 0rem;
+  width: 100%;
   font-size: 2.5rem;
 }
 .main2 h2 span {
@@ -87,31 +87,37 @@
 
 .container2 {
   display: flex;
-}
-.items {
   /* border: 2px solid black; */
-  justify-content: space-evenly;
-  text-align: baseline;
-  padding: 0rem 1rem;
-  margin: 2rem 0rem;
-  margin-bottom: 6rem;
+  justify-content: space-between;
+  margin: 0rem 3rem;
+  margin-bottom: 5rem;
 }
+
+.items {
+  display: flex;
+  padding: 1rem 0rem;
+  width: 500px;
+  margin: 0rem 1rem;
+}
+.img-item {
+  display: flex;
+  /* border: 2px solid black; */
+  align-items: center;
+  justify-content: center;
+  margin: 0rem 2rem;
+}
+
 .items h3 {
-  padding-left: 7rem;
   margin-bottom: 1rem;
 }
-.items img {
-  width: 3rem;
-}
+
 .items p {
-  padding-left: 7rem;
-  text-align: baseline;
-  text-align: justify;
+  text-align: left;
 }
 
 #section {
   display: flex;
-  /* border: 2px solid black; */
+  /* border: 2px solid rgb(255, 15, 15); */
   background-color: rgb(36, 36, 36);
 }
 #section img {

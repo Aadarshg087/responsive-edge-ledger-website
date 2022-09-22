@@ -1,0 +1,133 @@
+#navbar {
+  display: block;
+  width: 100%;
+  padding-top: 0.5rem;
+}
+
+.nav-logo {
+  text-align: center;
+}
+
+.main .btn a:hover {
+  background-color: rgb(1, 119, 1);
+}
+
+.container {
+  /* border: 2px solid rgb(255, 0, 0); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1rem;
+  box-sizing: none;
+}
+
+#navbar ul {
+  display: flex;
+  list-style: none;
+  text-align: center;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+#navbar ul li a {
+  padding: 0.2rem 1.2rem;
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+}
+#contact {
+  margin-right: 0rem;
+}
+
+#navbar ul li a:hover {
+  background-color: rgb(0, 170, 0);
+  border-radius: 7px;
+}
+.main {
+  width: 100%;
+}
+.main h1 {
+  font-size: 2rem;
+}
+.main p {
+  font-size: 0.8rem;
+}
+
+.main a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.2rem 1.2rem;
+  border-radius: 5px;
+  margin: 1rem;
+  color: white;
+  background-color: rgb(0, 170, 0);
+}
+
+.main2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.main2 h2 {
+  text-align: center;
+  margin-bottom: 0;
+}
+.container2 {
+  display: block;
+  margin: 2rem 0rem;
+  margin-top: 4rem;
+}
+.items {
+  padding: 0rem 2rem;
+  display: block;
+  margin: auto;
+  margin-bottom: 2rem;
+  text-align: center;
+  width: 400px;
+}
+
+#section {
+  display: block;
+}
+
+#section img {
+  display: none;
+}
+
+#section h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+#section p {
+  margin-bottom: 5rem;
+}
+
+#section2 img:nth-child(3) {
+  display: none;
+}
+
+#section2 img {
+  /* border: 2px solid black; */
+  display: block;
+  width: 20%;
+  margin: auto;
+}
+
+.contact {
+  background-image: none;
+  background-color: rgb(69, 69, 69);
+}
+.contact h2,
+.contact p {
+  color: white;
+}
+.details-input button {
+  display: block;
+  margin-right: 0;
+}
+
+.details-input {
+  display: block;
+  margin: auto;
+}
