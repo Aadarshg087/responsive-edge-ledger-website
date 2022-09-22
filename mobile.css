@@ -122,12 +122,8 @@
 .contact p {
   color: white;
 }
+
 .details-input button {
   display: block;
   margin-right: 0;
-}
-
-.details-input {
-  display: block;
-  margin: auto;
 }
